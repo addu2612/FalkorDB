@@ -1,3 +1,26 @@
+# Paved by Desire Paths from who actually authored and reviewed recent work.
+# These lines cover code that no rule below owns today.
+
+/.claude/                               @AviAvni @DvirDukhan
+/.devcontainer/                         @AviAvni @DvirDukhan
+/bench/                                 @AviAvni @DvirDukhan
+/deps/                                  @swilly22
+/deps/GraphBLAS/                        @swilly22 @GomezGab
+/graph/                                 @AviAvni @DvirDukhan
+/src/                                   @swilly22
+/src/commands/                          @DvirDukhan @swilly22
+/src/constraint/                        @swilly22 @DvirDukhan
+/src/cron/                              @swilly22 @gkorland
+/src/curl_session/                      @gkorland
+/src/filter_tree/                       @swilly22 @DvirDukhan
+/src/procedures/                        @swilly22 @GomezGab
+/src/serializers/                       @swilly22 @DvirDukhan
+/tests/                                 @AviAvni @DvirDukhan
+/tests/benchmarks/                      @swilly22
+/tests/tck/                             @swilly22
+/tests/unit/                            @swilly22 @GomezGab
+
+# ---- Existing rules, kept unchanged. They come last, so they still win where they overlap. ----
 # Paths whose contents EXECUTE with this repository's credentials, rather than
 # merely being tested by CI.
 #
